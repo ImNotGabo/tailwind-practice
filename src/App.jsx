@@ -41,19 +41,20 @@ function App() {
       <div className='w-32 h-32 bg-red-800 pl-4'>Padding Left</div>
 
       {/* Styling Text - Font Family Part 1*/}
-      <p className='font-sans text-base text-center text-gray-700 m-3 p-5'>
+      <p className='font-sans text-base text-center text-gray-700 m-3 p-5 line-through'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit assumenda reprehenderit, iste cupiditate dolorem
         minus porro, repellendus ex animi totam, ut perspiciatis nihil voluptate. Ad consequatur rem perspiciatis
         aperiam ipsa!
       </p>
-      <p className='font-serif text-2xl text-right text-gray-800 m-3 p-5'>
+      <p className='font-serif text-2xl text-right text-gray-800 m-3 p-5 tracking-tight uppercase'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit assumenda reprehenderit, iste cupiditate dolorem
         minus porro, repellendus ex animi totam, ut perspiciatis nihil voluptate. Ad consequatur rem perspiciatis
         aperiam ipsa!
       </p>
-      <p className='font-mono text-4xl text-justify text-gray-900 m-3 p-5'>
+      <p className='font-mono text-4xl text-justify text-gray-900 m-3 p-5 italic leading-relaxed'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit assumenda reprehenderit, iste cupiditate dolorem
-        minus porro, repellendus ex animi totam, ut perspiciatis nihil voluptate. Ad consequatur rem perspiciatis
+        minus porro, repellendus ex animi totam,{' '}
+        <span className='font-black underline'>ut perspiciatis nihil voluptate.</span> Ad consequatur rem perspiciatis
         aperiam ipsa!
       </p>
     </div>

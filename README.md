@@ -103,3 +103,66 @@
 | black, white                                               | -         |
 | gray, red, yellow, green, teal, indigo, blue, purple, pink | 100 - 900 |
 
+## Styling Text - Font Weight
+
+.font-{weight}
+
+| Weights   |     |
+| --------- | --- |
+| hairline  | 100 |
+| thin      | 200 |
+| light     | 300 |
+| normal    | 400 |
+| medium    | 500 |
+| semibold  | 600 |
+| bold      | 700 |
+| extrabold | 800 |
+| black     | 900 |
+
+## Styling Text - Letter Spacing
+
+.tracking-{size}
+
+| Sizes   | em     |
+| ------- | ------ |
+| tighter | -0.05  |
+| tight   | -0.025 |
+| normal  | 0      |
+| wide    | 0.025  |
+| wider   | 0.05   |
+| widest  | 0.1    |
+
+NOTE: Tracking is in em, not rem. em units are based on the parent element's font size, not the document root font size.
+
+## Styling Text - Line Height
+
+.leading-{size}
+
+| Sizes   | rem   | Pixels |
+| ------- | ----- | ------ |
+| none    | 1     | 16px   |
+| tight   | 1.25  | 20px   |
+| snug    | 1.375 | 22px   |
+| normal  | 1.5   | 24px   |
+| relaxed | 1.625 | 26px   |
+| loose   | 2     | 32px   |
+
+## Styling Text - Text Decoration
+
+.decoration-{decoration}
+
+| Decorations     |
+| --------------- |
+| underline       |
+| line-through    |
+| no-underline    |
+| no-line-through |
+
+## Styling Text - Text Transform
+
+.uppercase, .lowercase, .capitalize, .normal-case
+
+## Styling Text - Italics
+
+.italic or .not-italic
+
