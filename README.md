@@ -53,3 +53,53 @@
 | 16, 20, 24           | +4  |
 | 32, 40, 48, 56, 64   | +8  |
 
+## Styling Text - Font Family
+
+.font-{family}
+
+| Families |                            |
+| -------- | -------------------------- |
+| sans     | Helvetica or similar       |
+| serif    | Times New Roman or similar |
+| mono     | Monospace or similar       |
+
+## Styling Text - Font Size
+
+.text-{size}
+
+| Sizes | rem   | Pixels |
+| ----- | ----- | ------ |
+| xs    | 0.75  | 12px   |
+| sm    | 0.875 | 14px   |
+| base  | 1     | 16px   |
+| lg    | 1.125 | 18px   |
+| xl    | 1.25  | 20px   |
+| 2xl   | 1.5   | 24px   |
+| 3xl   | 1.875 | 30px   |
+| 4xl   | 2.25  | 36px   |
+| 5xl   | 3     | 48px   |
+| 6xl   | 3.75  | 60px   |
+| 7xl   | 4.5   | 72px   |
+| 8xl   | 6     | 96px   |
+| 9xl   | 8     | 128px  |
+
+## Styling Text - Text Alignment
+
+.text-{align}
+
+| Aligns  |                     |
+| ------- | ------------------- |
+| left    | Left-aligned text   |
+| center  | Center-aligned text |
+| right   | Right-aligned text  |
+| justify | Justified text      |
+
+## Styling Text - Text Color
+
+.text-{color}
+
+| Colors                                                     | Shades    |
+| ---------------------------------------------------------- | --------- |
+| black, white                                               | -         |
+| gray, red, yellow, green, teal, indigo, blue, purple, pink | 100 - 900 |
+
