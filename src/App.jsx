@@ -29,6 +29,16 @@ function App() {
       <div className='w-5 h-6 bg-blue-700 space-'></div>
       <div className='w-5 h-6 bg-blue-800 space-'></div>
       <div className='w-5 h-6 bg-blue-900 space-'></div>
+
+      <div>Margin</div>
+      <div className='w-32 h-32 bg-blue-800 mt-4'>Margin Top</div>
+      <div className='w-32 h-32 bg-gray-500 mb-4'>Margin Bottom</div>
+      <div className='w-32 h-32 bg-gray-500 ml-4'>Margin Left</div>
+      <div className='w-32 h-32 bg-gray-500 mr-4'>Margin Right</div>
+      <div className='w-32 h-32 bg-red-800 pt-4'>Padding Top</div>
+      <div className='w-32 h-32 bg-red-800 pb-4'>Padding Bottom</div>
+      <div className='w-32 h-32 bg-red-800 pr-4'>Padding Right</div>
+      <div className='w-32 h-32 bg-red-800 pl-4'>Padding Left</div>
     </div>
   );
 }
