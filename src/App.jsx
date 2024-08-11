@@ -1,3 +1,5 @@
+import Challenge2 from './components/Challenge-2.jsx';
+
 function App() {
   return (
     // Background Classes & Shades
@@ -57,6 +59,7 @@ function App() {
         <span className='font-black underline'>ut perspiciatis nihil voluptate.</span> Ad consequatur rem perspiciatis
         aperiam ipsa!
       </p>
+      <Challenge2 />
     </div>
   );
 }
