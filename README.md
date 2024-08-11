@@ -160,6 +160,18 @@ NOTE: Tracking is in em, not rem. em units are based on the parent element's fon
 
 ## Borders
 
+## Borders Thickness
+
+.border-{thickness}
+
+| Thicknesses | Px  |
+| ----------- | --- |
+| none-0      | 0   |
+| thin-1      | 1px |
+| medium-2    | 2px |
+| thick-4     | 4px |
+| extra-thick | 8px |
+
 .border-{side}-{thickness}
 
 | Sides         | Thicknesses | Px  |
