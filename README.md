@@ -249,6 +249,20 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | .rounded-2xl  | rounded-t-2xl, rounded-b-2xl, rounded-l-2xl, rounded-r-2xl     |
 | .rounded-full | rounded-t-full, rounded-b-full, rounded-l-full, rounded-r-full |
 
+## Display Modes
+
+| Display Modes |                            |
+| ------------- | -------------------------- |
+| _block_       | Display as a block         |
+| inline        | Display as an inline       |
+| inline-block  | Display as an inline-block |
+| _flex_        | Display as a flex          |
+| inline-flex   | Display as an inline-flex  |
+| table         | Display as a table         |
+| table-row     | Display as a table-row     |
+| table-cell    | Display as a table-cell    |
+| _hidden_      | Hide an element            |
+
 ## Styling Text - Text Transform
 
 .uppercase, .lowercase, .capitalize, .normal-case

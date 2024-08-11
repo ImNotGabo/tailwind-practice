@@ -1,6 +1,7 @@
 import Borders from './components/Borders.jsx';
 import Challenge2 from './components/Challenge-2.jsx';
 import ButtonsChallenge from './components/ButtonsChallenge.jsx';
+import Display from './components/Display.jsx';
 
 function App() {
   return (
@@ -69,6 +70,9 @@ function App() {
 
       {/* Buttons Challenge */}
       <ButtonsChallenge />
+
+      {/* Display */}
+      <Display />
     </div>
   );
 }
