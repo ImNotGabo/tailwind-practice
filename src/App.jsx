@@ -1,3 +1,4 @@
+import Borders from './components/Borders.jsx';
 import Challenge2 from './components/Challenge-2.jsx';
 
 function App() {
@@ -60,6 +61,10 @@ function App() {
         aperiam ipsa!
       </p>
       <Challenge2 />
+      <br />
+
+      {/* Borders */}
+      <Borders />
     </div>
   );
 }

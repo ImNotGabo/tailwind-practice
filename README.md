@@ -158,6 +158,85 @@ NOTE: Tracking is in em, not rem. em units are based on the parent element's fon
 | no-underline    |
 | no-line-through |
 
+## Borders
+
+.border-{side}-{thickness}
+
+| Sides         | Thicknesses | Px  |
+| ------------- | ----------- | --- |
+| t, b, l , r   | none-0      | 0   |
+| thin-empty    | 1           | 1px |
+| medium-2      | 2           | 2px |
+| thick-4       | 4           | 4px |
+| extra-thick-8 | 8           | 8px |
+
+## Borders Colors
+
+.border-{color}-{shade}
+
+| Colors                                                     | Shades  |
+| ---------------------------------------------------------- | ------- |
+| black, white                                               | -       |
+| gray, red, yellow, green, teal, indigo, blue, purple, pink | 100-900 |
+
+## Borders Style
+
+.border-{style}
+
+| Styles |
+| ------ |
+| solid  |
+| dashed |
+| dotted |
+| double |
+| hidden |
+| none   |
+| dotted |
+| double |
+| hidden |
+| none   |
+
+NOTE: The dashed, dotted, and double border styles are not supported in Safari.
+
+## Borders Radius
+
+.rounded-{size}
+
+| Sizes | rem   | px     |
+| ----- | ----- | ------ |
+| none  | 0     | 0      |
+| sm    | 0.125 | 2px    |
+| base  | 0.25  | 4px    |
+| md    | 0.375 | 6px    |
+| lg    | 0.5   | 8px    |
+| xl    | 0.75  | 12px   |
+| 2xl   | 1     | 16px   |
+| full  | 0     | 9999px |
+
+.rounded-{side}-{radius}
+
+| Sides | -                         |
+| ----- | ------------------------- |
+| t     | Top-left, Top-right       |
+| b     | Bottom-left, Bottom-right |
+| l     | Top-left, Bottom-left     |
+| r     | Top-right, Bottom-right   |
+| tl    | Top-left                  |
+| tr    | Top-right                 |
+| bl    | Bottom-left               |
+| br    | Bottom-right              |
+
+| Sizes         | Sides                                                          |
+| ------------- | -------------------------------------------------------------- |
+| .rounded-none | rounded-t-none, rounded-b-none, rounded-l-none, rounded-r-none |
+| .rounded-sm   | rounded-t-sm, rounded-b-sm, rounded-l-sm, rounded-r-sm         |
+| .rounded-base | rounded-t-base, rounded-b-base, rounded-l-base, rounded-r-base |
+| .rounded-md   | rounded-t-md, rounded-b-md, rounded-l-md, rounded-r-md         |
+| .rounded-lg   | rounded-t-lg, rounded-b-lg, rounded-l-lg, rounded-r-lg         |
+| .rounded-xl   | rounded-t-xl, rounded-b-xl, rounded-l-xl, rounded-r-xl         |
+| .rounded-2xl  | rounded-t-2xl, rounded-b-2xl, rounded-l-2xl, rounded-r-2xl     |
+| .rounded-full | rounded-t-full, rounded-b-full, rounded-l-full, rounded-r-full |
+
 ## Styling Text - Text Transform
 
 .uppercase, .lowercase, .capitalize, .normal-case
