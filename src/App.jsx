@@ -1,5 +1,6 @@
 import Borders from './components/Borders.jsx';
 import Challenge2 from './components/Challenge-2.jsx';
+import ButtonsChallenge from './components/ButtonsChallenge.jsx';
 
 function App() {
   return (
@@ -65,6 +66,9 @@ function App() {
 
       {/* Borders */}
       <Borders />
+
+      {/* Buttons Challenge */}
+      <ButtonsChallenge />
     </div>
   );
 }
