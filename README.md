@@ -263,6 +263,53 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | table-cell    | Display as a table-cell    |
 | _hidden_      | Hide an element            |
 
+## Flexbox Directions (Horizontal & Vertical)
+
+.justify-{alignment}
+
+| Alginments | Default (horizontal)                                   |
+| ---------- | ------------------------------------------------------ |
+| start      | Items are packed to the start                          |
+| end        | Items are packed to the end                            |
+| center     | Items are centered                                     |
+| between    | Items are evenly distributed in the space              |
+| around     | Items are evenly distributed around the flex container |
+| evenly     | Items are evenly distributed                           |
+| stretch    | Items stretch to fill the container                    |
+
+.items-{alignment}
+
+| Alginments | Fill container (vertical)                              |
+| ---------- | ------------------------------------------------------ |
+| start      | Items are packed to the start                          |
+| end        | Items are packed to the end                            |
+| center     | Items are centered                                     |
+| between    | Items are evenly distributed in the space              |
+| around     | Items are evenly distributed around the flex container |
+| evenly     | Items are evenly distributed                           |
+| stretch    | Items stretch to fill the container                    |
+
+## Flexbox Directions
+
+.flex-{direction}
+
+| Directions  |
+| ----------- |
+| row         |
+| col         |
+| row-reverse |
+| col-reverse |
+
+## Flexbox Wrap
+
+.flex-wrap
+
+| Wraps        |         |
+| ------------ | ------- |
+| wrap         | Default |
+| nowrap       |
+| wrap-reverse |
+
 ## Styling Text - Text Transform
 
 .uppercase, .lowercase, .capitalize, .normal-case

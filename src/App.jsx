@@ -2,6 +2,7 @@ import Borders from './components/Borders.jsx';
 import Challenge2 from './components/Challenge-2.jsx';
 import ButtonsChallenge from './components/ButtonsChallenge.jsx';
 import Display from './components/Display.jsx';
+import Flex from './components/Flex.jsx';
 
 function App() {
   return (
@@ -73,6 +74,9 @@ function App() {
 
       {/* Display */}
       <Display />
+
+      {/* Flex */}
+      <Flex />
     </div>
   );
 }
