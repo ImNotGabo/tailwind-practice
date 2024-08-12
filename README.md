@@ -267,15 +267,15 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 
 .justify-{alignment}
 
-| Alginments | Default (horizontal)                                   |
-| ---------- | ------------------------------------------------------ |
-| start      | Items are packed to the start                          |
-| end        | Items are packed to the end                            |
-| center     | Items are centered                                     |
-| between    | Items are evenly distributed in the space              |
-| around     | Items are evenly distributed around the flex container |
-| evenly     | Items are evenly distributed                           |
-| stretch    | Items stretch to fill the container                    |
+| Alignnments | Default (horizontal)                                   |
+| ----------- | ------------------------------------------------------ |
+| start       | Items are packed to the start                          |
+| end         | Items are packed to the end                            |
+| center      | Items are centered                                     |
+| between     | Items are evenly distributed in the space              |
+| around      | Items are evenly distributed around the flex container |
+| evenly      | Items are evenly distributed                           |
+| stretch     | Items stretch to fill the container                    |
 
 .items-{alignment}
 

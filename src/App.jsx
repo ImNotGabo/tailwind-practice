@@ -3,6 +3,7 @@ import Challenge2 from './components/Challenge-2.jsx';
 import ButtonsChallenge from './components/ButtonsChallenge.jsx';
 import Display from './components/Display.jsx';
 import Flex from './components/Flex.jsx';
+import BlockGalleryChallenge from './components/BlockGalleryChallenge.jsx';
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
 
       {/* Flex */}
       <Flex />
+
+      {/* Block Gallery Challenge */}
+
+      <BlockGalleryChallenge />
     </div>
   );
 }
