@@ -385,3 +385,50 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | .focus:text-{color}-{shade}   | text-color       |
 | .focus:font-bold              | font-weight      |
 | .focus:border-{color}-{shade} | border-color     |
+
+## Combined Modifiers
+
+.hover:focus:{classes}
+
+| Classes                             |                  |
+| ----------------------------------- | ---------------- |
+| .hover:focus:bg-{color}-{shade}     | background-color |
+| .hover:focus:text-{color}-{shade}   | text-color       |
+| .hover:focus:font-bold              | font-weight      |
+| .hover:focus:border-{color}-{shade} | border-color     |
+
+.md:hover:bg-{color}-{shade}
+
+| Classes                          |                  |
+| -------------------------------- | ---------------- |
+| .md:hover:bg-{color}-{shade}     | background-color |
+| .md:hover:text-{color}-{shade}   | text-color       |
+| .md:hover:font-bold              | font-weight      |
+| .md:hover:border-{color}-{shade} | border-color     |
+| .md:focus:bg-{color}-{shade}     | background-color |
+| .md:focus:text-{color}-{shade}   | text-color       |
+| .md:focus:font-bold              | font-weight      |
+| .md:focus:border-{color}-{shade} | border-color     |
+
+## Active Modifiers
+
+.active:{classes}
+
+| Classes                        |                  |
+| ------------------------------ | ---------------- |
+| .active:bg-{color}-{shade}     | background-color |
+| .active:text-{color}-{shade}   | text-color       |
+| .active:font-bold              | font-weight      |
+| .active:border-{color}-{shade} | border-color     |
+
+## Disabled Modifiers
+
+.disabled:{classes}
+
+| Classes                          |                  |
+| -------------------------------- | ---------------- |
+| .disabled:bg-{color}-{shade}     | background-color |
+| .disabled:text-{color}-{shade}   | text-color       |
+| .disabled:font-bold              | font-weight      |
+| .disabled:border-{color}-{shade} | border-color     |
+
