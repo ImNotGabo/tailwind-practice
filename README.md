@@ -364,3 +364,14 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | .sm:flex             | display: flex                                                                        |
 | .sm:flex-{direction} | row, col, row-reverse, col-reverse                                                   |
 
+## Hover Modifiers
+
+.hover:{classes}
+
+| Classes                       |                  |
+| ----------------------------- | ---------------- |
+| .hover:bg-{color}-{shade}     | background-color |
+| .hover:text-{color}-{shade}   | text-color       |
+| .hover:font-bold              | font-weight      |
+| .hover:border-{color}-{shade} | border-color     |
+

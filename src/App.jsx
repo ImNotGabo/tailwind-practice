@@ -5,6 +5,7 @@ import Display from './components/Display.jsx';
 import Flex from './components/Flex.jsx';
 import BlockGalleryChallenge from './components/BlockGalleryChallenge.jsx';
 import Responsive from './components/Responsive.jsx';
+import Hover from './components/Hover.jsx';
 
 function App() {
   return (
@@ -86,6 +87,9 @@ function App() {
 
       {/* Responsive */}
       <Responsive />
+
+      {/* Hover */}
+      <Hover />
     </div>
   );
 }
