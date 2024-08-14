@@ -6,6 +6,7 @@ import Flex from './components/Flex.jsx';
 import BlockGalleryChallenge from './components/BlockGalleryChallenge.jsx';
 import Responsive from './components/Responsive.jsx';
 import Hover from './components/Hover.jsx';
+import Focus from './components/Focus.jsx';
 
 function App() {
   return (
@@ -90,6 +91,9 @@ function App() {
 
       {/* Hover */}
       <Hover />
+
+      {/* Focus */}
+      <Focus />
     </div>
   );
 }

@@ -375,3 +375,13 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | .hover:font-bold              | font-weight      |
 | .hover:border-{color}-{shade} | border-color     |
 
+## Focus Modifiers
+
+.focus:{classes}
+
+| Classes                       |                  |
+| ----------------------------- | ---------------- |
+| .focus:bg-{color}-{shade}     | background-color |
+| .focus:text-{color}-{shade}   | text-color       |
+| .focus:font-bold              | font-weight      |
+| .focus:border-{color}-{shade} | border-color     |
