@@ -158,6 +158,14 @@ NOTE: Tracking is in em, not rem. em units are based on the parent element's fon
 | no-underline    |
 | no-line-through |
 
+## Styling Text - Text Transform
+
+.uppercase, .lowercase, .capitalize, .normal-case
+
+## Styling Text - Italics
+
+.italic or .not-italic
+
 ## Borders
 
 ## Borders Thickness
@@ -310,11 +318,49 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | nowrap       |
 | wrap-reverse |
 
-## Styling Text - Text Transform
+## Responsive Breakpoints
 
-.uppercase, .lowercase, .capitalize, .normal-case
+| Breakpoints | Min-width | Max-width |
+| ----------- | --------- | --------- |
+| sm          | 640px     | 1023px    |
+| md          | 768px     | 1279px    |
+| lg          | 1024px    | 1535px    |
+| xl          | 1280px    | 1919px    |
+| 2xl         | 1536px    | 2559px    |
 
-## Styling Text - Italics
+## Responsive Classes
 
-.italic or .not-italic
+.{breakpoint}:{property}
+
+| Responsive Classes |                  |
+| ------------------ | ---------------- |
+| .sm:bg-\*          | background color |
+| .sm:w-\*           | width            |
+| .sm:h-\*           | height           |
+| .sm:m-\*           | margin           |
+| .sm:p-\*           | padding          |
+
+| Responsive Classes       |                                              |
+| ------------------------ | -------------------------------------------- |
+| .sm-font-sans            | font-family - sans, serif and mono           |
+| .sm-tex-lg               | font size, xs, sm, base, md, lg, xl, {2-6}xl |
+| .sm-text-left            | text-align - left, center, right, justify    |
+| .sm-text-{color}-{shade} | tet-color                                    |
+| .sm-font-bold            | font-weight                                  |
+| .sm-tracking-tighter     | letter-spacing                               |
+| .sm-leading-tight        | line-height                                  |
+| .sm-uppercase            | text-transform                               |
+
+| Responsive Classes     |               |
+| ---------------------- | ------------- |
+| .sm:border-{color}     | border-color  |
+| .sm:border-{style}     | border-style  |
+| .sm:border-{thickness} | border-width  |
+| .sm:rounded-{size}     | border-radius |
+
+| Responsive Classes   |                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------ |
+| .sm:{display}        | block, inline, inline-block, flex, inline-flex, table, table-row, table-cell, hidden |
+| .sm:flex             | display: flex                                                                        |
+| .sm:flex-{direction} | row, col, row-reverse, col-reverse                                                   |
 

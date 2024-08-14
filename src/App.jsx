@@ -4,6 +4,7 @@ import ButtonsChallenge from './components/ButtonsChallenge.jsx';
 import Display from './components/Display.jsx';
 import Flex from './components/Flex.jsx';
 import BlockGalleryChallenge from './components/BlockGalleryChallenge.jsx';
+import Responsive from './components/Responsive.jsx';
 
 function App() {
   return (
@@ -82,6 +83,9 @@ function App() {
       {/* Block Gallery Challenge */}
 
       <BlockGalleryChallenge />
+
+      {/* Responsive */}
+      <Responsive />
     </div>
   );
 }
