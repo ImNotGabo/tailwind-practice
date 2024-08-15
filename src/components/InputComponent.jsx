@@ -8,6 +8,7 @@ function InputComponent() {
         <input
           type='text'
           id='fullName'
+          name='fullName'
           className='placeholder-blue-300 border border-gray-300 rounded-lg py-2 px-4 w-4/6 shadow-md focus:bg-blue-100 text-black'
           placeholder='Enter your full name'
         />
