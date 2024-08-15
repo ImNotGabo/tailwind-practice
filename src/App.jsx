@@ -9,6 +9,7 @@ import Hover from './components/Hover.jsx';
 import Focus from './components/Focus.jsx';
 import OtherUtilities from './components/OtherUtilities.jsx';
 import InputComponent from './components/InputComponent.jsx';
+import EmployeeCard from './components/EmployeeCard.jsx';
 
 function App() {
   return (
@@ -102,6 +103,9 @@ function App() {
 
       {/* Input Component */}
       <InputComponent />
+
+      {/* Employee Card */}
+      <EmployeeCard />
     </div>
   );
 }
