@@ -432,3 +432,52 @@ NOTE: The dashed, dotted, and double border styles are not supported in Safari.
 | .disabled:font-bold              | font-weight      |
 | .disabled:border-{color}-{shade} | border-color     |
 
+## Other Utilities
+
+.shadow-{size}
+
+| Sizes   | px  |
+| ------- | --- |
+| sm      | 0   |
+| md      | 1   |
+| lg      | 2   |
+| xl      | 3   |
+| 2xl     | 5   |
+| inner   | 0   |
+| outline | 0   |
+| none    | 0   |
+
+.opacity-{opacity}
+
+| Opacity | Percent |
+| ------- | ------- |
+| 0       | 0       |
+| 25      | 25      |
+| 50      | 50      |
+| 75      | 75      |
+| 100     | 100     |
+
+.cursor-{style}
+
+| Styles      |             |
+| ----------- | ----------- |
+| auto        | Default     |
+| default     | Default     |
+| pointer     | Pointer     |
+| wait        | Wait        |
+| text        | Text        |
+| move        | Move        |
+| not-allowed | Not Allowed |
+
+.select-{style}
+
+| Styles |         |
+| ------ | ------- |
+| none   | Default |
+| text   | Text    |
+| all    | All     |
+| auto   | Default |
+
+.sr-only - screen reader only
+.not-sr-only - not screen reader only
+
