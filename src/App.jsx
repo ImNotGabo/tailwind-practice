@@ -8,6 +8,7 @@ import Responsive from './components/Responsive.jsx';
 import Hover from './components/Hover.jsx';
 import Focus from './components/Focus.jsx';
 import OtherUtilities from './components/OtherUtilities.jsx';
+import InputComponent from './components/InputComponent.jsx';
 
 function App() {
   return (
@@ -98,6 +99,9 @@ function App() {
 
       {/* Other Utilities */}
       <OtherUtilities />
+
+      {/* Input Component */}
+      <InputComponent />
     </div>
   );
 }
